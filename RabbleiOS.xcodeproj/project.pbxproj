@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12D179A2CB66AC60041D106 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E12D17992CB66AC60041D106 /* README.md */; };
+		E12D179D2CB66D610041D106 /* Web3Auth in Frameworks */ = {isa = PBXBuildFile; productRef = E12D179C2CB66D610041D106 /* Web3Auth */; };
+		E13E89CB2CB560EC004C8E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89CA2CB560EC004C8E0E /* AppDelegate.swift */; };
+		E13E89D42CB560ED004C8E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13E89D32CB560ED004C8E0E /* Assets.xcassets */; };
+		E13E89D72CB560ED004C8E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13E89D52CB560ED004C8E0E /* LaunchScreen.storyboard */; };
+		E13E89E02CB5621D004C8E0E /* InviteCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89DF2CB5621D004C8E0E /* InviteCodeVC.swift */; };
+		E13E89E32CB5623E004C8E0E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89E22CB5623E004C8E0E /* UIColor+Extensions.swift */; };
+		E13E89E72CB562AC004C8E0E /* RabbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89E62CB562AC004C8E0E /* RabbleButton.swift */; };
+		E13E89E92CB56533004C8E0E /* InviteCodeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89E82CB56533004C8E0E /* InviteCodeBuilder.swift */; };
+		E13E89F62CB568CB004C8E0E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89F52CB568CB004C8E0E /* NetworkService.swift */; };
+		E13E89F92CB56C3A004C8E0E /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89F82CB56C3A004C8E0E /* NetworkRequest.swift */; };
+		E13E89FD2CB56F2A004C8E0E /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E89FC2CB56F2A004C8E0E /* APIEndpoints.swift */; };
+		E13E8A012CB5893A004C8E0E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A002CB5893A004C8E0E /* StringConstants.swift */; };
+		E13E8A032CB58DB2004C8E0E /* InviteCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A022CB58DB2004C8E0E /* InviteCodeViewModel.swift */; };
+		E13E8A052CB59087004C8E0E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A042CB59087004C8E0E /* UIViewController+Extensions.swift */; };
+		E13E8A072CB59282004C8E0E /* JSONExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A062CB59282004C8E0E /* JSONExtensions.swift */; };
+		E13E8A092CB594E6004C8E0E /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A082CB594E6004C8E0E /* DataModels.swift */; };
+		E13E8A0C2CB59CB6004C8E0E /* RabbleBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E8A0B2CB59CB6004C8E0E /* RabbleBaseVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12D17992CB66AC60041D106 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E13E89C72CB560EC004C8E0E /* RabbleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13E89CA2CB560EC004C8E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E13E89D32CB560ED004C8E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E13E89D62CB560ED004C8E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E13E89D82CB560ED004C8E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13E89DF2CB5621D004C8E0E /* InviteCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCodeVC.swift; sourceTree = "<group>"; };
+		E13E89E22CB5623E004C8E0E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E13E89E62CB562AC004C8E0E /* RabbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleButton.swift; sourceTree = "<group>"; };
+		E13E89E82CB56533004C8E0E /* InviteCodeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCodeBuilder.swift; sourceTree = "<group>"; };
+		E13E89F52CB568CB004C8E0E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E13E89F82CB56C3A004C8E0E /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		E13E89FC2CB56F2A004C8E0E /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		E13E8A002CB5893A004C8E0E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		E13E8A022CB58DB2004C8E0E /* InviteCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCodeViewModel.swift; sourceTree = "<group>"; };
+		E13E8A042CB59087004C8E0E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E13E8A062CB59282004C8E0E /* JSONExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONExtensions.swift; sourceTree = "<group>"; };
+		E13E8A082CB594E6004C8E0E /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		E13E8A0B2CB59CB6004C8E0E /* RabbleBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleBaseVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13E89C42CB560EC004C8E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D179D2CB66D610041D106 /* Web3Auth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E13E89BE2CB560EC004C8E0E = {
+			isa = PBXGroup;
+			children = (
+				E12D17992CB66AC60041D106 /* README.md */,
+				E13E89C92CB560EC004C8E0E /* RabbleiOS */,
+				E13E89C82CB560EC004C8E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E13E89C82CB560EC004C8E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89C72CB560EC004C8E0E /* RabbleiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13E89C92CB560EC004C8E0E /* RabbleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E13E8A0A2CB59C87004C8E0E /* BaseClasses */,
+				E13E89FB2CB56F0C004C8E0E /* Constants */,
+				E13E89F42CB568A8004C8E0E /* Networking */,
+				E13E89E52CB56289004C8E0E /* CustomUI */,
+				E13E89E12CB5622D004C8E0E /* Utils */,
+				E13E89DE2CB561A8004C8E0E /* InviteCodeScreen */,
+				E13E89CA2CB560EC004C8E0E /* AppDelegate.swift */,
+				E13E89D32CB560ED004C8E0E /* Assets.xcassets */,
+				E13E89D52CB560ED004C8E0E /* LaunchScreen.storyboard */,
+				E13E89D82CB560ED004C8E0E /* Info.plist */,
+			);
+			path = RabbleiOS;
+			sourceTree = "<group>";
+		};
+		E13E89DE2CB561A8004C8E0E /* InviteCodeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89E82CB56533004C8E0E /* InviteCodeBuilder.swift */,
+				E13E89DF2CB5621D004C8E0E /* InviteCodeVC.swift */,
+				E13E8A022CB58DB2004C8E0E /* InviteCodeViewModel.swift */,
+				E13E8A082CB594E6004C8E0E /* DataModels.swift */,
+			);
+			path = InviteCodeScreen;
+			sourceTree = "<group>";
+		};
+		E13E89E12CB5622D004C8E0E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89E22CB5623E004C8E0E /* UIColor+Extensions.swift */,
+				E13E8A042CB59087004C8E0E /* UIViewController+Extensions.swift */,
+				E13E8A062CB59282004C8E0E /* JSONExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E13E89E52CB56289004C8E0E /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89E62CB562AC004C8E0E /* RabbleButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		E13E89F42CB568A8004C8E0E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89F72CB56C19004C8E0E /* Models */,
+				E13E89F52CB568CB004C8E0E /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E13E89F72CB56C19004C8E0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89F82CB56C3A004C8E0E /* NetworkRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E13E89FB2CB56F0C004C8E0E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E13E89FC2CB56F2A004C8E0E /* APIEndpoints.swift */,
+				E13E8A002CB5893A004C8E0E /* StringConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E13E8A0A2CB59C87004C8E0E /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E13E8A0B2CB59CB6004C8E0E /* RabbleBaseVC.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E13E89C62CB560EC004C8E0E /* RabbleiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13E89DB2CB560ED004C8E0E /* Build configuration list for PBXNativeTarget "RabbleiOS" */;
+			buildPhases = (
+				E13E89C32CB560EC004C8E0E /* Sources */,
+				E13E89C42CB560EC004C8E0E /* Frameworks */,
+				E13E89C52CB560EC004C8E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbleiOS;
+			packageProductDependencies = (
+				E12D179C2CB66D610041D106 /* Web3Auth */,
+			);
+			productName = RabbleiOS;
+			productReference = E13E89C72CB560EC004C8E0E /* RabbleiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13E89BF2CB560EC004C8E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E13E89C62CB560EC004C8E0E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E13E89C22CB560EC004C8E0E /* Build configuration list for PBXProject "RabbleiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E13E89BE2CB560EC004C8E0E;
+			packageReferences = (
+				E12D179B2CB66D610041D106 /* XCRemoteSwiftPackageReference "web3auth-swift-sdk" */,
+			);
+			productRefGroup = E13E89C82CB560EC004C8E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E13E89C62CB560EC004C8E0E /* RabbleiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E13E89C52CB560EC004C8E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D179A2CB66AC60041D106 /* README.md in Resources */,
+				E13E89D72CB560ED004C8E0E /* LaunchScreen.storyboard in Resources */,
+				E13E89D42CB560ED004C8E0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E13E89C32CB560EC004C8E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13E89F62CB568CB004C8E0E /* NetworkService.swift in Sources */,
+				E13E89E92CB56533004C8E0E /* InviteCodeBuilder.swift in Sources */,
+				E13E89E02CB5621D004C8E0E /* InviteCodeVC.swift in Sources */,
+				E13E8A032CB58DB2004C8E0E /* InviteCodeViewModel.swift in Sources */,
+				E13E8A072CB59282004C8E0E /* JSONExtensions.swift in Sources */,
+				E13E8A092CB594E6004C8E0E /* DataModels.swift in Sources */,
+				E13E89FD2CB56F2A004C8E0E /* APIEndpoints.swift in Sources */,
+				E13E89E72CB562AC004C8E0E /* RabbleButton.swift in Sources */,
+				E13E8A012CB5893A004C8E0E /* StringConstants.swift in Sources */,
+				E13E8A052CB59087004C8E0E /* UIViewController+Extensions.swift in Sources */,
+				E13E89E32CB5623E004C8E0E /* UIColor+Extensions.swift in Sources */,
+				E13E89F92CB56C3A004C8E0E /* NetworkRequest.swift in Sources */,
+				E13E8A0C2CB59CB6004C8E0E /* RabbleBaseVC.swift in Sources */,
+				E13E89CB2CB560EC004C8E0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E13E89D52CB560ED004C8E0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E13E89D62CB560ED004C8E0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E13E89D92CB560ED004C8E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E13E89DA2CB560ED004C8E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13E89DC2CB560ED004C8E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ8WVMYBA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RabbleiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.texturesample.RabbleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E13E89DD2CB560ED004C8E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ8WVMYBA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RabbleiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.texturesample.RabbleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E13E89C22CB560EC004C8E0E /* Build configuration list for PBXProject "RabbleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13E89D92CB560ED004C8E0E /* Debug */,
+				E13E89DA2CB560ED004C8E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13E89DB2CB560ED004C8E0E /* Build configuration list for PBXNativeTarget "RabbleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13E89DC2CB560ED004C8E0E /* Debug */,
+				E13E89DD2CB560ED004C8E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E12D179B2CB66D610041D106 /* XCRemoteSwiftPackageReference "web3auth-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/web3auth/web3auth-swift-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E12D179C2CB66D610041D106 /* Web3Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E12D179B2CB66D610041D106 /* XCRemoteSwiftPackageReference "web3auth-swift-sdk" */;
+			productName = Web3Auth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E13E89BF2CB560EC004C8E0E /* Project object */;
+}
